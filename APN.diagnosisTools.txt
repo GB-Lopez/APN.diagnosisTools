@@ -1,0 +1,15 @@
+1. open wireshark
+2. open chrome
+3. clear chromes full cache
+4. open chomes dev tools with F12
+5. start wireshark capture
+6. load suspect page and wait how ever many minutes as it takes to load or fail, no more than 5minutes in total.
+7. after the 5minues to failure, stop and save both captures.
+8. wireshark, save to standard format or pcap
+9. chrome's dev tool windows has a down-arrow icon when chrome windows is maximizes. use that to save the .har file 
+we'll need this done for each site individually
+
+
+1. wireshark
+2. dev tools and save to .har file
+3. mtr test and nslookup
