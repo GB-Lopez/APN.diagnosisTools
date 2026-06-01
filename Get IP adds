@@ -1,0 +1,5 @@
+When freshly install your labs and need to get an IP address
+
+rm -r /etc/udev/rules.d/70-persistent-net.rules
+yes
+reboot
