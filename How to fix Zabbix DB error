@@ -1,0 +1,4 @@
+1)pkill -9 zabbix_server
+2)service mysql restart
+3)service zabbix-agent restart
+4)service zabbix-server restart
